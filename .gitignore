@@ -1,0 +1,25 @@
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Go build files
+/bin/
+/pkg/
+/obj/
+*.exe
+*.out
+
+# Ignore dependencies (if using Go modules, this is optional)
+vendor/
+
+# Ignore environment files
+.env
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.swp
